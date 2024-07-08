@@ -1,0 +1,333 @@
+/* google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+
+/* universal selector  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+main{
+    margin: 50px 140px;
+}
+
+
+/* banner section  */
+#bannerSection{
+background-image: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%) , url(./images/Banner\ Image.png) ;
+height: 80vh;
+background-repeat: no-repeat;
+background-size: contain;
+border-radius: 16px;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
+flex-direction: column;
+text-align: center;
+color: white;
+font-family: "Merriweather", serif;
+}
+
+#bannerSection >h2 {
+    font-size: 20px;
+}
+
+#bannerSection >h1 {
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 70px;
+}
+
+
+/* 65% off section  */
+#offSection{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 70px 0;
+    font-family: 'Inter';
+}
+
+#offSection > h1 {
+    font-size: 55px;
+    color: red;
+}
+
+
+#offSection > h5 {
+    font-size: 24px;
+    font-weight: 500;
+    color: red;
+}
+
+#offSection > h4 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+
+
+/* mid Night Party Section  */
+#midNightPartySection{
+  height:80vh ;
+    background-image: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%) ,    url(./images/Vectorrr.png);
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    margin: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+#midNightPartySection > div {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: baseline;
+    justify-content: center;
+    margin-left: 150px;
+}
+
+#midNightPartySection > div > h1 {
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing:5px;
+}
+
+.para {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgb(141, 141, 141);
+}
+
+#midNightPartySection > div > button {
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+}
+
+
+
+/* schedule Section */
+#scheduleSection{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    padding: 100px;
+    margin: 100px 0;
+}
+
+#scheduleSection button{
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+.redSpan {
+    color: red;
+}
+
+
+/* coming Soon Section */
+#comingSoonSection{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    font-family: 'Inter';
+}
+
+.comingSoonDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: baseline;
+}
+
+#comingSoonImgDiv > img {
+    height: 364px;
+    width: 364px;
+    border: 10px solid red;
+    border-radius: 100%;
+    padding: 20px;
+}
+
+#comingSoonDivH5{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.comingSoonDivH1{
+    font-family: "Merriweather", serif ;
+    font-size: 40px;
+}
+
+.comingSoonDiv3H1{
+    font-size: 40px;
+}
+
+/* holiday Section  */
+#holidaySection{
+    margin: 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter';
+    gap: 25px;
+}
+
+#holidaySectionH1{
+    font-size: 72px;
+    font-family: "Merriweather", serif ;
+}
+
+#holidaySection >p{
+ text-align: center;
+}
+
+#holidaySectionPositionDiv{
+    height: 100vh;
+    position: relative;
+}
+
+#redDiv{
+    height: 300px;
+    background-color: red;
+    width: 80vw ;
+    position: absolute ;
+    top: 50%;
+    border-radius:16px 0 16px 16px;
+}
+
+#redDiv > div {
+    position: relative;
+}
+
+
+#img1{
+    position: absolute;
+    top: -400px;
+    }
+
+#img2{ 
+    position: absolute;
+    right: 50px;
+    top: -400px;
+}
+
+#portfolioSection{
+    font-family: 'Inter';
+    padding: 100px 0 100px 0 ;
+}
+
+#portfolioImgDiv{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+#portfolioImgDiv img{
+width: 400px;
+}
+
+/* subscribe Section */
+#subscribeSection{
+    font-family: 'Inter';
+    text-align: center;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    gap: 30px;
+    background-color:rgba(255, 0, 0, 0.05) ;
+    padding: 100px;
+    margin: 100px 0;
+}
+
+#subscribeSection > form {
+display: flex;
+gap: 0;
+}
+
+input[type=email] {
+    padding: 20px ;
+    width: 23vw;
+    border-radius: 30px 0 0 30px;
+    border: none;
+}
+
+input[type=button] {
+    padding: 20px 40px ;
+    background-color: red;
+    border-radius: 0px 30px 30px 0px;
+    border: none;
+    color: white;
+}
+
+/* footer section  */
+footer{
+    font-family: 'Inter';
+    background-color: black;
+    padding: 140px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: white;
+}
+
+.footerTxtDiv{
+display: flex;
+justify-content: space-between;
+}
+
+.footerContactDiv{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+.footerContactDiv img {
+  border: 2px dashed white;
+}
+
+#footerSocialDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 20px 0;
+    padding: 40px 0;
+    border-top: 1px solid rgb(81, 81, 81);
+    border-bottom: 1px solid rgb(81, 81, 81);
+}
+
